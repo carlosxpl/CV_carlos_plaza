@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Plaza Lendínez CV</title>
+    <link rel="stylesheet" type="text/css" href="public/assets/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="public/assets/css/style.css" media="screen" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="public/assets/images/favicon.ico" />
+
+    <style>
+        /* El motivo de poner este estilo en el propio html era porque al cargar las fuentes primero no le daba tiempo a cargar el color de las fichas
+        ocasionando que por un breve momento de 0.5 secs se viera sin fondo y daba mala impresión para el usuario  */
+        .mini-cards-containers {
+            background-color: #ffffff;
+            color: #252A34;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- CONTAINER-->
+    <div>
+        <div class="personal-data">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 d-flex align-items-start p-0">
+                        <!-- FIXME: Cuando se cambie la imagen por una en 4/3 habra que cambiar la clase, de momento se queda en 1/1 para no deformarla -->
+                        <div class="embed-responsive embed-responsive-4by3 embed-image">
+                            <img class="embed-responsive-item rounded border border-dark rounded-circle"
+                                src="public/assets/images/fotoPerfil_resize.png" alt="imagen_perfil">
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="personal-data-text" id="personal-data-text">
+                            <div class="h1">
+                                Carlos Plaza Lendínez
+                            </div>
+                            <div class="h2">
+                                Desarrollador de aplicaciones web<br />
+                                (entornos móviles)
+                            </div>
+                            <div class="h2">
+                                Especializado en BackEnd
+                            </div>
+                            <!-- <div class="d-flex justify-content-end">
+                                <div id="is-autorizado-group" class="position-relative custom-button-checkbox">
+                                    <input type="checkbox" id="is-autorizado" name="is-autorizado" class="custom-slide-checkbox">
+                                    <div class="check-first"><span><i class="fa-solid fa-moon"></i></span></div>
+                                    <div class="check-second"><span></span></div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENIDO ADICIONAL-->
+        <div class="body-content">
+            <div class="container-fluid bg-dark">
+                <div class="row">
+                    <div class="col-md-4 col-12 my-5 my-md-0 d-flex flex-column">
+                        <div class="rope rope-medium mx-auto d-none d-md-block" id="digital-competence-rope"></div>
+                        <div class="border border-dark custom-rounded personal-data-div mini-cards-containers mx-auto position-relative flex-column cursor-pointer position-relative"
+                            id="digital-competence">
+    
+                            <div id="digital-competence-header" class="personal-data-header digital-competence-header">
+                                COMPETENCIA DIGITAL
+                            </div>
+                            <div id="digital-competence-body"
+                                class="personal-data-body px-md-3 digital-competence-body justify-content-start custom-scrollbar">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <strong>Lenguajes de programación:</strong> PHP, JavaScript, Java, Python
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <strong>Lenguajes de marcas:</strong> Html, CSS, Json, Markdown, XML, Yaml, Xsd
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div><strong>Lenguajes de BBDD:</strong> Mysql, PostgreSQL, Oracle Sql, MongoDB,
+                                            PLSQL</div>
+                                    </li>
+                                    <li>
+                                        <div><strong>Ofimática:</strong> Microsoft Office, Libre Office</div>
+                                    </li>
+                                    <li>
+                                        <div><strong>Frameworks:</strong> React, Codeigniter 3, Codeigniter 4, Laravel
+                                            Ionic/Angular, Flutter(Aprendiendo Actualmente) </div>
+                                    </li>
+                                    <li>
+                                        <div><strong>Sistemas operativos:</strong> Windows, Android, Linux</div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-7 col-12"><strong>Otros
+                                                    conocimientos:<br /></strong>Bootstrap,<br />Jquery, WordPress
+                                                AndroidStudio
+                                            </div>
+                                            <div class="col-md-5 col-12 d-flex d-md-block">
+                                                <img class="qr-resize ml-auto ml-md-0"
+                                                    src="public/assets/images/linkedin_qr.png">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="linkedin-qr">
+                                <div class="d-flex justiy-content-center align-items-center flex-column position-relative">
+                                    <img class="img-fluid" src="public/assets/images/linkedin_qr.png">
+                                    <i class="fa-brands fa-linkedin text-primary qr-icons"></i>
+                                </div>
+    
+                            </div>
+                            <div class="custom-circle" id="circle_digital">¡CLICKAME!</div>
+                            <div class="click-text-mobile" id="circle_digital_mobile">¡CLICKAME!</div>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-12 my-5 my-md-0 d-flex flex-column">
+                        <div class="rope rope-small mx-auto d-none d-md-block" id="job-experience-rope"></div>
+                        <div class="border border-dark custom-rounded personal-data-div mini-cards-containers mx-auto cursor-pointer flex-column position-relative"
+                            id="job-experience">
+    
+                            <div id="job-experience-header" class="personal-data-header job-experience-header">
+                                EXPERIENCIA LABORAL
+                            </div>
+                            <div id="job-experience-body"
+                                class="personal-data-body job-experience-body justify-content-start custom-scrollbar">
+                                <div class="w-100">
+    
+                                    <div class="">
+                                        <div class="title">Desarrollador Web 6/2021 - Actualidad</div>
+                                        <div class="subtitle">Twentic S.L</div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <div>Desarrollo de Aplicaciones Web con Codeigniter 3</div>
+                                                </li>
+                                                <li>
+                                                    <div>Desarrollo de Aplicaciones Web con Codeigniter 4</div>
+                                                </li>
+                                                <li>
+                                                    <div>Desarrollo de Aplicaciones Web con Laravel</div>
+                                                </li>
+                                                <li>
+                                                    <div>Desarrollo de Aplicaciones Web con React</div>
+                                                </li>
+                                                <li>
+                                                    <div>Maquetación Web</div>
+                                                </li>
+                                                <li>
+                                                    <div>Manipulación de BBDD</div>
+                                                </li>
+                                                <li>
+                                                    <div>Creación de API REST en PHP</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="">
+                                        <div class="title">FCT DAWE 2/2021 - 6/2021</div>
+                                        <div class="subtitle">Lluert Serveis Telemàtics</div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <div>Maquetación Web</div>
+                                                </li>
+                                                <li>
+                                                    <div>Desarrollo de aplicaciones internas para la empresa</div>
+                                                </li>
+                                                <li>
+                                                    <div>Manipulación de BBDD</div>
+                                                </li>
+                                                <li>
+                                                    <div>Desarrollo web en PHP</div>
+                                                </li>
+                                                <li>
+                                                    <div>Creación de API REST en PHP</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="">
+                                        <div class="title">CAJERO/REPONEDOR 7/2019 - 9/2019</div>
+                                        <div class="subtitle">Hipermercados carrefour centro comercial Maquinista</div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <div>Obertura y cierre de caja</div>
+                                                </li>
+                                                <li>
+                                                    <div>Reposición de mercancía</div>
+                                                </li>
+                                                <li>
+                                                    <div>Asesoría al cliente acerca de los productos</div>
+                                                </li>
+                                                <li>
+                                                    <div>Extracción de las alarmas de los productos</div>
+                                                </li>
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-7 col-12">Cobro a clientes</div>
+                                                        <div class="col-md-5 col-12 d-flex d-md-block">
+                                                            <img class="qr-resize ml-auto ml-md-0"
+                                                                src="public/assets/images/email_qr.png">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div id="email-qr">
+                                <div class="d-flex justiy-content-center align-items-center flex-column position-relative">
+                                    <img class="img-fluid" src="public/assets/images/email_qr.png">
+                                    <i class="fa-solid fa-envelope text-danger qr-icons"></i>
+                                </div>
+                            </div>
+                            <div class="click-text" id="circle_experiencia">¡CLICKAME!</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 my-5 my-md-0 d-flex flex-column">
+                        <div class="rope rope-big mx-auto d-none d-md-block" id="professional-skills-rope"></div>
+                        <div class="border border-dark custom-rounded personal-data-div mini-cards-containers mx-auto cursor-pointer flex-column position-relative"
+                            id="professional-skills">
+    
+                            <div id="professional-skills-header" class="personal-data-header professional-skills-header">
+                                COMPETENCIAS PROFESIONALES
+                            </div>
+                            <div id="professional-skills-body"
+                                class="personal-data-body professional-skills-body justify-content-start custom-scrollbar">
+                                <ul>
+                                    <li>
+                                        <div>Mentalidad de nunca rendirse hasta obtener la respuesta</div>
+                                    </li>
+                                    <li>
+                                        <div>Facilidad de adaptación a nuevos terrenos propuestos</div>
+                                    </li>
+                                    <li>
+                                        <div>Siempre abierto a aprender nuevas tecnologías</div>
+                                    </li>
+                                    <li>
+                                        <div>Sentido del compañerismo</div>
+                                    </li>
+                                    <li>
+                                        <div>Gestión de conflictos</div>
+                                    </li>
+                                    <li>
+                                        <div>Creatividad</div>
+                                    </li>
+                                    <li>
+                                        <div>Autocontrol</div>
+                                    </li>
+                                    <li>
+                                        <div>Organizado</div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-7 col-12">Liderazgo</div>
+                                            <div class="col-md-5 col-12 d-flex d-md-block">
+                                                <img class="qr-resize ml-auto ml-md-0"
+                                                    src="public/assets/images/email_qr.png">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="pdf-qr">
+                                <div class="d-flex justiy-content-center align-items-center flex-column position-relative">
+                                    <img class="img-fluid" src="public/assets/images/email_qr.png">
+                                    <i class="fa-solid fa-file-pdf text-danger qr-icons"></i>
+                                </div>
+                            </div>
+                            <div class="custom-circle" id="circle_competencias">
+                                <span style="transform:rotate(270deg)">¡</span>
+                                <span style="transform:rotate(283deg)">C</span>
+                                <span style="transform:rotate(296deg)">L</span>
+                                <span style="transform:rotate(309deg)">I</span>
+                                <span style="transform:rotate(322deg)">C</span>
+                                <span style="transform:rotate(335deg)">K</span>
+                                <span style="transform:rotate(348deg)">A</span>
+                                <span style="transform:rotate(1deg)">M</span>
+                                <span style="transform:rotate(14deg)">E</span>
+                                <span style="transform:rotate(27deg)">!</span>
+                            </div>
+                            <div class="click-text-mobile" id="circle_competencias_mobile">¡CLICKAME!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-3"></div>
+                <div class="post-it-content">
+                    <ul class="post-it-ul">
+                        <li>
+                            <div class="post-it-content">
+                                <h1 class="h1">FORMACIÓN ACADEMICA</h1>
+                                <div class="post-it-body custom-scrollbar justify-content-start">
+                                    <div class="w-100">
+                                        <div class="my-3">
+                                            <div class="title">DESARROLLADOR DE APLICACIONES WEB</div>
+                                            <div class="subtitle">Institut Tecnològic de Barcelona| 2019 - 2021</div>
+                                        </div>
+                                        <div class="my-3">
+                                            <div class="title">BACHILLERATO TECNOLÓGICO</div>
+                                            <div class="subtitle">Ventura Gassol| 2017 - 2019</div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 my-5">
+                                        <h2 class="h2 font-rowdies">IDIOMAS</h2>
+                                        <div>
+                                            <div>
+                                                <div>Inglés</div>
+                                                <div class="star-group">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                    <i class="fa-regular fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>Castellano</div>
+                                                <div class="star-group">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div>Catalán</div>
+                                                <div class="star-group">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-it-content">
+                                <h1 class="h1">FORMACIÓN COMPLEMENTARIA</h1>
+                                <div class="post-it-body custom-scrollbar justify-content-start">
+                                    <div class="w-100">
+                                        <div class="my-3">
+                                            <div class="title">CERTIFICACIÓN CURSO DE DESARROLLO WEB CON REACT JS</div>
+                                            <div class="subtitle">Formación de 60 horas impartida por <strong>Imagina
+                                                    Formación</strong>&nbsp;
+                                                <a href="public/assets/pdfs/formacion_react_2022.pdf" target="_blank"
+                                                    class="pdf_links">
+                                                    <i class="fa-solid fa-file-pdf text-danger"></i>
+                                                    <i class="fa-solid fa-arrow-right-from-bracket text-black"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="my-3">
+                                            <div class="title">CARNET DE CONDUCIR PERMISO B</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-it-content">
+                                <h1 class="h1">INFORMACIÓN DE CONTACTO</h1>
+                                <div class="post-it-body custom-scrollbar justify-content-start">
+                                    <div class="w-100">
+                                        <div class="title mt-4 mb-5">Disponibilidad:&nbsp;Tiempo completo</div>
+                                        <div class="title my-5">Teléfono:&nbsp;667251484</div>
+                                        <div class="title my-5">Email:&nbsp;carlosplaza2001@gmail.com</div>
+                                        <div class="title my-5">Dirección:&nbsp;Carrer de Sant LLuis, Santa Coloma de
+                                            Gramanet</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-dark footer d-flex justify-content-end align-items-end">
+                        <div class="text-small font-rowdies font-bold text-white">Última Actualización 24/01/2022</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="public/assets/js/jquery-3.6.3.min.js"></script>
+<script src="public/assets/js/bootstrap-4.5.0.min.js"></script>
+<script src="public/assets/js/index.js"></script>
+
+</html>

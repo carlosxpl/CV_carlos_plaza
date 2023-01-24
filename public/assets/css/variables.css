@@ -1,0 +1,28 @@
+:root {
+    --blue: #08D9D6;
+    --black: #252A34;
+    --red: #FF2E63;
+    --gray: #EAEAEA;
+
+    --font-family-default: 'Quicksand', helvetica, sans-serif;
+    --font-family-RobotoSlab: 'RobotoSlab', helvetica, sans-serif;
+    --font-family-Rowdies: 'Rowdies', helvetica, sans-serif;
+
+    --font-size-xxs: 10px;
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-default: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+
+    --font-weight-bold: 800;
+    --font-weight-semibold: 600;
+    --font-weight-normal: 400;
+
+    --line-height-1_2: 1.2;
+    --line-height-150: 150%;
+
+    --letter-spacing-1: 0.01em;
+    --letter-spacing-2: 0.02em;
+}

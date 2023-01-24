@@ -1,0 +1,94 @@
+/* Quicksand */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/Quicksand/Quicksand-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/Quicksand/Quicksand-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/Quicksand/Quicksand-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/Quicksand/Quicksand-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/Quicksand/Quicksand-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* RobotoSlab */
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../../fonts/RobotoSlab/RobotoSlab-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../../fonts/RobotoSlab/RobotoSlab-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../../fonts/RobotoSlab/RobotoSlab-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../../fonts/RobotoSlab/RobotoSlab-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../../fonts/RobotoSlab/RobotoSlab-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Rowdies */
+
+@font-face {
+    font-family: 'Rowdies';
+    src: url('../../fonts/Rowdies/Rowdies-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Rowdies';
+    src: url('../../fonts/Rowdies/Rowdies-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rowdies';
+    src: url('../../fonts/Rowdies/Rowdies-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+}

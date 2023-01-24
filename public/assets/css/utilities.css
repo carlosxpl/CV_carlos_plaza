@@ -1,0 +1,110 @@
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+
+/* custom checkbox */
+
+.custom-button-checkbox {
+    position: relative;
+    /* top: 50%; */
+    max-width: 200px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    border: 1px solid var(--blue);
+    border-radius: 2em;
+}
+
+.custom-slide-checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.check-first {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+.custom-button-checkbox .check-first:before,
+.custom-button-checkbox .check-first:after,
+.custom-button-checkbox .check-first span {
+    position: absolute;
+    top: 0;
+    max-width: 100px;
+    width: 100%;
+    height: 45px;
+    font-size: var(--font-size-lg);
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    font-size: var(--font-size-default);
+    text-align: center;
+    line-height: 1;
+    border-radius: 2em;
+    transition: 0.5s ease all;
+}
+
+.custom-button-checkbox .check-first:after,
+.custom-button-checkbox .check-first span {
+    top: 30%;
+}
+
+.custom-button-checkbox .check-first:before {
+    content: "";
+    left: 0;
+    background-color: var(--blue);
+}
+
+.custom-button-checkbox .check-first:after {
+    content: 'Sí';
+    right: 4px;
+    color: var(--blue);
+}
+
+.custom-button-checkbox .check-first span {
+    display: inline-block;
+    left: 4px;
+    color: #fff;
+    z-index: 1;
+}
+
+.custom-button-checkbox .custom-slide-checkbox:checked+.check-first span {
+    color: var(--blue);
+}
+
+.custom-button-checkbox .custom-slide-checkbox:checked+.check-first:before {
+    left: 100px;
+    background-color: var(--blue);
+}
+
+.custom-button-checkbox .custom-slide-checkbox:checked+.check-first:after {
+    color: #fff !important;
+}
+
+.custom-button-checkbox .custom-slide-checkbox:checked~.layer {
+    background-color: #fcebeb;
+}
+
+.font-rowdies{
+    font-family: var(--font-family-Rowdies) !important;
+}
+
+.text-black{
+    color: var(--black) !important;
+}
+
+.text-small{
+ font-size: var(--font-size-xs);
+}
